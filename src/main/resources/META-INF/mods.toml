@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory
+license="MIT";
+[[mods]] #mandatory
+modId="xcub" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="XCub"
+logoFile="xcub.png" #optional
+credits="Thanks for this example mod goes to Java" #optional
+authors="Akaneo" #optional
+description='''
+To be added
+'''
+[[dependencies.xcub]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.xcub]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
